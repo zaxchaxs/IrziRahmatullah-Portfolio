@@ -9,6 +9,7 @@
 //     });
 // }
 
+// HAmburger 
 function toggleBtn() {
     let menuBtn = document.getElementById('hamburger');
     let navbarList = document.getElementById('navList');
@@ -20,3 +21,21 @@ function toggleBtn() {
         navbarList.classList.toggle(className);
     });
 }
+
+
+// Animate fade scroll down
+const fadeElements = document.querySelectorAll('.fade-element');
+function checkFade() {
+    fadeElements.forEach(element => {
+        const elementTop = element.getBoundingClientRect().top;
+        const elementBottom = element.getBoundingClientRect().bottom;
+
+        if(elementTop < window.innerHeight && elementBottom>=0){
+            element.classList.add('show');
+        }else{
+            element.classList.remove('show')
+        }
+    })
+}
+
+

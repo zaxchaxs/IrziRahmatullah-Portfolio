@@ -9,6 +9,15 @@
 } */
 
 /* Hamburger button */
+*{
+    scroll-behavior: smooth;
+    scroll-padding: 4rem;
+    transition: all .5s ease;
+}
+
+header {
+    z-index: 99999;
+}
 
 #hamburger {
     position: absolute;
@@ -72,3 +81,14 @@
 #hamburger.active span:nth-child(4) {
     transform: rotate(45deg);
 }
+
+
+/* Fade Element scroll down */
+.fade-element {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .fade-element.show {
+    opacity: 1;
+  }
+  

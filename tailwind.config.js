@@ -6,7 +6,8 @@ module.exports = {
       translate: {'5': '-0.3125rem'}
     },
     fontFamily: {
-     calistoga: ['Calistoga']
+     calistoga: ['Calistoga'],
+     poppin: ['Poppins']
     },
   },
   plugins: [],
