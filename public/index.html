@@ -15,11 +15,11 @@
 <body>
       <!-- Navbar -->
     <header class="items-center fixed top-0 left-0 w-full backdrop-blur-sm shadow-lg ">
-        <div class="container mx-auto">
-            <div class="flex justify-between mx-5">
+        <div class="container px-5 border-black border-2">
+            <div class="flex justify-between border-red-500 border-2">
                 <a href="#Home" class="text-lg block py-4 px-4 text-emerald-500 font-calistoga">Irzi Rahmatullah</a>
-                <div class="navbar-items flex px-4" >
-                    <button class="lg:hidden group transition ease-in-out " type="button" id="hamburger" onClick="toggleBtn()">
+                <div class="navbar-items flex" >
+                    <button class=" lg:hidden group transition ease-in-out flex " type="button" id="hamburger" onClick="toggleBtn()">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -30,20 +30,19 @@
                             <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg mx-2 py-2 px-3  hover:text-emerald-500" href="#home">Home</a></li>
                             <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg mx-2 py-2 px-3 hover:text-emerald-600" href="#about-me">About Me</a></li>
                             <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg mx-2 py-2 px-3 hover:text-emerald-600" href="#skills">Skills</a></li>
-                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg mx-2 py-2 px-3 hover:text-emerald-600" href="#">Sertificate</a></li>
+                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg mx-2 py-2 px-3 hover:text-emerald-600" href="#sertificate">Sertificate</a></li>
                             <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg mx-2 py-2 px-3 hover:text-emerald-600" href="#"> Portfolio</a></li class="lg:active:transform-none active:translate-x-2 transition ">
                             <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg mx-2 py-2 px-3 hover:text-emerald-600" href="#">Blog</a></li>
                             <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg mx-2 py-2 px-3 hover:text-emerald-600" href="#">Contact</a></li>
                         </ul>
                     </nav>
-                    <div class="hamburger"></div>
             </div>
         </div>
     </header>
     <!-- End of Navbar -->
 
     <!-- Main Section -->
-    <section class="py-14 mt-10 pb-0 " id="home">
+    <section class="py-14 mt-10 pb-0 w-full " id="home">
         <div class="container p-5 pb-0 lg:flex mx-auto">
             <div class="lg:flex justify-between">
                 <div class="fade-elements my-3 px-3 lg:w-1/2">
@@ -62,7 +61,7 @@
     <!-- End Main -->
 
     <!-- About Section -->
-    <section class="" id="about-me">
+    <section class="mt-20 w-full " id="about-me">
         <div class="container my-2 p-5 mx-auto lg:flex lg:flex-wrap">
             <div class="mx-auto py-2 lg:flex lg:flex-1 ">
                 <div class=" p-3 w-full lg:w-1/2" data-aos="fade-right">
@@ -115,8 +114,8 @@
     <!-- End About -->
 
     <!-- Skills Section -->
-    <section class=" my-24 p-8 bg-emerald-950" id="skills">
-        <div class="container">
+    <section class=" mt-24 p-8 bg-emerald-950 w-full " id="skills">
+        <div class="container mx-auto">
             <div class="">
                 <div class=" flex justify-center p-2 m-4" data-aos="fade-down">
                     <h1 class="font-poppin text-xl  text-emerald-300 lg:text-2xl">SKILLED IN</h1>
@@ -125,10 +124,10 @@
                     <h1 class="font-poppin text-lg text-gray-300">Currently, I am skilled in</h1>
                 </div>
                 <!-- Skills icon -->
-                <div class="flex flex-col justify-center items-center my-8 lg:flex-row">
+                <div class=" flex flex-col justify-center items-center my-8 lg:flex-row">
                     <div class="flex my-2">
                         <!-- HTML -->
-                        <div class="bg-gray-100 hover:bg-gray-400 rounded-full mx-3 w-16 h-16 items-center flex cursor-pointer lg:w-24 lg:h-24 flex justify-center " data-aos="flip-right" data-aos-delay="200">
+                        <div class="bg-gray-100 hover:bg-gray-400 rounded-full mx-3 w-16 h-16 items-center cursor-pointer lg:w-24 lg:h-24 flex justify-center p-2" data-aos="flip-right" data-aos-delay="200">
                             <img class="" src="./image/techIcon/html-logo.png" alt="HTML 5">
                         </div>
                         <!-- CSS -->
@@ -152,85 +151,61 @@
     </section>
     <!-- End Skills -->
 
-<br>
+    <!-- Sertificate Section -->
+    <section class=" bg-gray-300 py-8 w-full " id="sertificate">
+        <div class="container border-black border-2 my-2 p-5 mx-auto">
+            <div class="border-blue-600 border-2">
+                <h1 class="font-poppin text-xl text-emerald-600 flex justify-center py-2" data-aos="fade-down">SERTIFICATE</h1>
+                <h2 class="font-poppin text-xl text-gray-800 flex justify-center py-2" data-aos="fade-right">My Latest Certificate</h2>
+                <p class="font-poppin text-lg text-gray-800 text-center p-2" data-aos="fade-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo unde voluptates aut mollitia.</p>
+            </div>
+            <!-- Sertificate -->
+            <div class="border-red-500 border-2 w-full justify-center md:flex lg:flex flex-warp xl:w-10/12 xl:mx-auto">
+                <!-- per-setificate -->
+                <div class="border-green-600 border-2 p-4 m-4 md:w-1/2 " data-aos="flip-right"> 
+                    <div class="border-pink-500 border-2 relative rounded-md shadow-md" >
+                        <img class="w-full" src="./image/sertificate/default.jpg" alt="" width="w-full">
+                        <button class="absolute left-0 bottom-0 m-6 bg-emerald-500 hover:bg-emerald-700 text-white rounded-md font-poppin px-2 py-1 text-sm shadow-lg lg:px-3 lg:py-2 lg:m-12 md:m-8 md:px-2 md:py-1">View</button>
+                    </div>
+                    <h1 class="flex font-poppin text-lg text-emerald-600 text-center">Lorem ipsum dolor sit amet asdar tasa.</h1>
+                </div>
+                <div class="border-green-600 border-2 p-4 m-4 md:w-1/2" data-aos="flip-right"> 
+                    <div class="border-pink-500 border-2 relative rounded-md shadow-md" >
+                        <img class="w-full" src="./image/sertificate/default.jpg" alt="" width="w-full">
+                        <button class="absolute left-0 bottom-0 m-6 bg-emerald-500 hover:bg-emerald-700 text-white rounded-md font-poppin px-2 py-1 text-sm shadow-lg lg:px-3 lg:py-2 lg:m-12 md:m-8 md:px-2 md:py-1">View</button>
+                    </div>
+                    <h1 class="flex font-poppin text-lg text-emerald-600 text-center">Lorem ipsum dolor sit amet asdar tasa.</h1>
+                </div>
+                <div class="border-green-600 border-2 p-4 m-4 md:w-1/2" data-aos="flip-right"> 
+                    <div class="border-pink-500 border-2 relative rounded-md shadow-md" >
+                        <img class="w-full" src="./image/sertificate/default.jpg" alt="" width="w-full">
+                        <button class="absolute left-0 bottom-0 m-6 bg-emerald-500 hover:bg-emerald-700 text-white rounded-md font-poppin px-2 py-1 text-sm shadow-lg lg:px-3 lg:py-2 lg:m-12 md:m-8 md:px-2 md:py-1">View</button>
+                    </div>
+                    <h1 class="flex font-poppin text-lg text-emerald-600 text-center">Lorem ipsum dolor sit amet asdar tasa.</h1>
+                </div>
+                <div>
+                    <!-- button -->
+                    <div class="flex border-blue-500 border-2 justify-center">
+                        <button class="bg-emerald-500 rounded-full mx-3 py-2 px-3 font-bold text-white hover:bg-emerald-700 active:bg-emerald-500 transition ease-out duration-300" id="more-serti">More</button>
+                    </div>
+                    <div class="border-green-600 border-2 p-4 m-4 hidden" data-aos="flip-right"> 
+                        <div class="border-pink-500 border-2 relative rounded-md shadow-md" >
+                            <img class="w-full" src="./image/sertificate/default.jpg" alt="" width="w-full">
+                            <button class="absolute left-0 bottom-0 m-6 bg-emerald-500 hover:bg-emerald-700 text-white rounded-md font-poppin px-2 py-1 text-sm shadow-lg lg:px-3 lg:py-2 lg:m-12 md:m-8 md:px-2 md:py-1">View</button>
+                        </div>
+                        <h1 class="flex font-poppin text-lg text-emerald-600 text-center">Lorem ipsum dolor sit amet asdar tasa.</h1>
+                    </div>
+                </div>
+                <div>
+                    <button class="hidden">Close</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Sertificate -->
 
 
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae optio repellendus architecto sint veritatis expedita laudantium ut perspiciatis explicabo commodi! Deserunt unde illo quis nostrum blanditiis ratione sequi perferendis officia?</p>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<br>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur optio, fugiat iusto, placeat corrupti debitis ad assumenda hic est perferendis error quasi quidem exercitationem officia officiis deleniti dolorum vel ex.</p>
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

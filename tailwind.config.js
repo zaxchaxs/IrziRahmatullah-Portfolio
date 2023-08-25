@@ -9,6 +9,7 @@ module.exports = {
      calistoga: ['Calistoga'],
      poppin: ['Poppins']
     },
+
   },
   plugins: [],
 }
