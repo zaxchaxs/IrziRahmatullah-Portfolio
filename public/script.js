@@ -14,6 +14,7 @@ function toggleBtn() {
     let menuBtn = document.getElementById('hamburger');
     let navbarList = document.getElementById('navList');
     menuBtn.classList.toggle('active');
+
     const classNavBtn = [
         'bg-white', 'border-2', 'shadow-lg', 'rounded-lg', 'top-full', 'right-0', '-right-52'
     ];
@@ -23,19 +24,24 @@ function toggleBtn() {
 }
 
 
-// Animate fade scroll down
-const fadeElements = document.querySelectorAll('.fade-element');
-function checkFade() {
-    fadeElements.forEach(element => {
-        const elementTop = element.getBoundingClientRect().top;
-        const elementBottom = element.getBoundingClientRect().bottom;
-
-        if(elementTop < window.innerHeight && elementBottom>=0){
-            element.classList.add('show');
-        }else{
-            element.classList.remove('show')
-        }
+// More Button for Sertificate
+function moreSertif() {
+    const moreBtn = document.querySelector('#more-button-sertif');
+    let moreSertif = document.getElementById('more-sertif');
+    const classMoreSertif = ['md:hiden', 'lg:hidden', 'hidden'];
+    classMoreSertif.forEach(classes => {
+        moreSertif.classList.toggle(classes)
+        moreBtn.classList.toggle(classes)
     })
 }
 
-
+// More button for Portfolio
+function morePort() {
+    const moreBtn = document.querySelector('#more-button-port');
+    let moreSertif = document.getElementById('more-port');
+    const classMoreSertif = ['md:hiden', 'lg:hidden', 'hidden'];
+    classMoreSertif.forEach(classes => {
+        moreSertif.classList.toggle(classes)
+        moreBtn.classList.toggle(classes)
+    })
+}
