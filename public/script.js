@@ -28,7 +28,7 @@ function toggleBtn() {
 function moreSertif() {
     const moreBtn = document.querySelector('#more-button-sertif');
     let moreSertif = document.getElementById('more-sertif');
-    const classMoreSertif = ['md:hiden', 'lg:hidden', 'hidden'];
+    const classMoreSertif = ['md:hidden', 'lg:hidden', 'hidden'];
     classMoreSertif.forEach(classes => {
         moreSertif.classList.toggle(classes)
         moreBtn.classList.toggle(classes)
@@ -39,7 +39,7 @@ function moreSertif() {
 function morePort() {
     const moreBtn = document.querySelector('#more-button-port');
     let moreSertif = document.getElementById('more-port');
-    const classMoreSertif = ['md:hiden', 'lg:hidden', 'hidden'];
+    const classMoreSertif = ['md:hidden', 'lg:hidden', 'hidden'];
     classMoreSertif.forEach(classes => {
         moreSertif.classList.toggle(classes)
         moreBtn.classList.toggle(classes)
