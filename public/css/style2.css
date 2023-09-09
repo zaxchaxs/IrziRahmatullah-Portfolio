@@ -4,6 +4,13 @@
     scroll-behavior: smooth;
     scroll-padding: 4rem;
     transition: all .5s ease;
+      
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -11,11 +18,10 @@ header {
 }
 
 #hamburger {
-    position: absolute;
+    position: relative;
     z-index: 100;
     width: 30px;
     height: 30px;
-    right: 2rem;
     top: 1.25rem;
     border: none;
     background-color: transparent;
