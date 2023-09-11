@@ -19,28 +19,28 @@
 
 <body>
     <!-- Navbar -->
-    <header class="items-center fixed top-0 left-0 w-full backdrop-blur-sm shadow-lg ">
+    <header class="w-full items-center fixed top-0 left-0 backdrop-blur-sm shadow-lg">  
         <div class="container px-5">
             <div class="flex justify-between">
                 <a href="#Home" class="text-lg block py-4 px-4 text-emerald-500 font-calistoga">Irzi Rahmatullah</a>
                 <div class="navbar-items flex" >
-                    <nav class="pt-4 absolute lg:block lg:static lg:max-w-full -right-52 transition ease-in-out duration-300" id="navList">
-                        <ul class="lg:flex block ">
-                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg mx-2 py-2 px-3  hover:text-emerald-600" href="#home">Home</a></li>
-                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg mx-2 py-2 px-3 hover:text-emerald-600" href="#about-me">About Me</a></li>
-                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg mx-2 py-2 px-3 hover:text-emerald-600" href="#skills">Skills</a></li>
-                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg mx-2 py-2 px-3 hover:text-emerald-600" href="#sertificate">Sertificate</a></li>
-                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg mx-2 py-2 px-3 hover:text-emerald-600" href="#portfolio"> Portfolio</a></li class="lg:active:transform-none active:translate-x-2 transition ">
-                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg mx-2 py-2 px-3 hover:text-emerald-600" href="#">Blog</a></li>
-                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg mx-2 py-2 px-3 hover:text-emerald-600" href="#contacts">Contact</a></li>
-                        </ul>
-                    </nav>
                     <button class="lg:hidden  group transition ease-in-out flex " type="button" id="hamburger" onClick="toggleBtn()">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
                     </button>
+                    <nav class="pt-4 hidden absolute lg:block lg:static transition ease-in-out duration-300" id="navList">
+                        <ul class="lg:flex">
+                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg py-2 px-3  hover:text-emerald-600" href="#home">Home</a></li>
+                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg py-2 px-3 hover:text-emerald-600" href="#about-me">About Me</a></li>
+                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg py-2 px-3 hover:text-emerald-600" href="#skills">Skills</a></li>
+                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg py-2 px-3 hover:text-emerald-600" href="#sertificate">Sertificate</a></li>
+                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg py-2 px-3 hover:text-emerald-600" href="#portfolio"> Portfolio</a></li class="lg:active:transform-none active:translate-x-2 transition ">
+                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg py-2 px-3 hover:text-emerald-600" href="#">Blog</a></li>
+                            <li class="lg:active:transform-none active:translate-x-2 transition "><a class="transition ease-in-out rounded-lg py-2 px-3 hover:text-emerald-600" href="#">Contact</a></li>
+                        </ul>
+                    </nav>
             </div>
         </div>
     </header>
@@ -57,19 +57,19 @@
                     <p class="font-poppin my-4 text-justify text-lg">Hi! I am a student at one of the state universities, Universitas Singaperbangsa Karawang. There, I am majoring in Informatics. I am passionate about exploring the latest technologies and learning about new ways to improve the quality and efficiency of my development skills.</p>
                     <button class="bg-emerald-500 rounded-full mx-3 py-2 px-3 font-bold text-white hover:bg-emerald-700 active:bg-emerald-500 transition ease-out duration-300">Contact Me!</button>
                 </div>
-                <div class="fade-elements my-4 lg:w-1/2 z-10" data-aos="fade-up">
-                    <img src="./image/gifImageAbout.gif" alt="Irzi Rahmatullah">
-                </div>
+            <div class="fade-elements my-4 lg:w-1/2 z-10" data-aos="fade-up">
+                <img src="./image/gifImageAbout.gif" alt="Irzi Rahmatullah">
+            </div>
             </div>
         </div>
     </section>
     <!-- End Main -->
 
     <!-- About Section -->
-    <section class="mt-20 w-full " id="about-me">
+    <section class="mt-20 " id="about-me">
         <div class="container my-2 p-5 mx-auto lg:flex lg:flex-wrap">
             <div class="mx-auto py-2 lg:flex lg:flex-1 ">
-                <div class=" p-3 w-full lg:w-1/2" data-aos="fade-right">
+                <div class=" p-3 lg:w-1/2" data-aos="fade-right">
                     <h1 class="font-poppin text-2xl text-emerald-500" data-aos="fade-down">ABOUT ME</h1>
                     <h2 class="font-poppin text-xl text-gray-600 my-4">I have an interest in Software Engineering, especially Web Development.</h2>
                     <p class="font-poppin my-2">With a background in Computer Engineering, I aspire to develop skills in both frontend and backend development. I believe that every project is an opportunity to learn and grow, and I am always excited to embrace new challenges.</p>
@@ -117,7 +117,7 @@
         </div>
     </section>
     <!-- End About -->
-    
+
     <!-- Skills Section -->
     <section class=" mt-24 p-8 bg-emerald-950 w-full" id="skills">
         <div class="container mx-auto w-fit">
@@ -219,17 +219,17 @@
                 <p class="font-poppin text-lg text-gray-600 text-center p-2" data-aos="fade-left">The collection of projects I have recently created</p>
             </div>
             <!-- Portfolio -->
-            <div class=" mx-auto relative">
+            <div class="w-full mx-auto justify-center relative">
                 <!-- per-portfolio -->
-                <div class="lg:m-8 md:flex lg:flex p-4">
-                    <div class="p-4 m-4 lg:w-1/2" data-aos="flip-right"> 
+                <div class="lg:m-8 md:flex lg:flex p-2">
+                    <div class="p-4 m-6 lg:w-1/2" data-aos="flip-right"> 
                         <div class="relative rounded-md shadow-md" >
                             <img class="w-full" src="./image/sertificate/default.jpg" alt="" width="w-full">
                             <button class="absolute left-0 bottom-0 m-3 bg-emerald-500 hover:bg-emerald-700 text-white rounded-md font-poppin px-2 py-1 text-sm shadow-lg lg:px-3 lg:py-2 lg:m-6 md:m-8 md:px-2 md:py-1">View</button>
-                        </div>  
+                        </div>
                         <a href="#" class="flex font-poppin text-lg text-emerald-600 text-center">Lorem ipsum dolor sit amet asdar tasa.</a>
                     </div>
-                    <div class=" p-4 m-4 lg:w-1/2" data-aos="flip-left"> 
+                    <div class=" p-4 m-6 lg:w-1/2" data-aos="flip-left"> 
                         <div class="relative rounded-md shadow-md" >
                             <img class="w-full" src="./image/sertificate/default2.jpg" alt="" width="w-full">
                             <button class="absolute left-0 bottom-0 m-3 bg-emerald-500 hover:bg-emerald-700 text-white rounded-md font-poppin px-2 py-1 text-sm shadow-lg lg:px-3 lg:py-2 lg:m-6 md:m-8 md:px-2 md:py-1">View</button>
@@ -242,15 +242,15 @@
                 </div>
 
                 <!-- Hidden Portfolio -->
-                <div class="hidden md:flex lg:m-8 lg:flex md:hidden lg:hidden p-4" id="more-port">
-                    <div class=" p-4 m-4 lg:w-1/2" data-aos="flip-right"> 
+                <div class="hidden md:flex lg:m-8 lg:flex md:hidden lg:hidden p-2" id="more-port">
+                    <div class=" p-4 m-6 lg:w-1/2" data-aos="flip-right"> 
                         <div class="relative rounded-md shadow-md" >
                             <img class="w-full" src="./image/sertificate/default.jpg" alt="" width="w-full">
                             <button class="absolute left-0 bottom-0 m-3 bg-emerald-500 hover:bg-emerald-700 text-white rounded-md font-poppin px-2 py-1 text-sm shadow-lg lg:px-3 lg:py-2 lg:m-6 md:m-8 md:px-2 md:py-1">View</button>
                         </div>
                         <h1 class="flex font-poppin text-lg text-emerald-600 text-center">Lorem ipsum dolor sit amet asdar tasa.</h1>
                     </div>
-                    <div class=" p-4 m-4 lg:w-1/2" data-aos="flip-left"> 
+                    <div class=" p-4 m-6 lg:w-1/2" data-aos="flip-left"> 
                         <div class="relative rounded-md shadow-md" >
                             <img class="w-full" src="./image/sertificate/default2.jpg" alt="" width="w-full">
                             <button class="absolute left-0 bottom-0 m-3 bg-emerald-500 hover:bg-emerald-700 text-white rounded-md font-poppin px-2 py-1 text-sm shadow-lg lg:px-3 lg:py-2 lg:m-6 md:m-8 md:px-2 md:py-1">View</button>
@@ -267,34 +267,34 @@
     <!-- End Portfolio -->
 
     <!-- Contact Section -->
-    <section class="py-8 w-full bg-gray-300" id="contacts">
-        <div class="container mx-auto">
+    <section class="py-8 w-full bg-gray-300" id="portfolio">
+        <div class="mx-auto">
             <div class="">
                 <div class="m-4">
                     <h1 class="text-xl text-emerald-600 font-poppin justify-center flex p-2" data-aos="fade-down">Contact Me!</h1>
                     <h2 class="text-lg text-gray-600 font-poppin justify-center flex p-2 text-center" data-aos="fade-up">you can provide me with comments about this website </h2>
                 </div>
                 <form action="" class="m-4 p-2">
-                    <div class="w-full lg:2/3 lg:mx-auto py-2" data-aos="fade-right">
+                    <div class="py-2" data-aos="fade-right">
                         <h2 class="text-emerald-600 font-poppin">Name :</h2>
                         <input class="rounded-lg w-full focus:outline-none p-2" placeholder="Your Name" type="text" name="" id="">
                     </div> 
-                    <div class="w-full lg:2/3 lg:mx-auto py-2" data-aos="fade-right">
+                    <div class="py-2" data-aos="fade-right">
                         <h2 class="text-emerald-600 font-poppin">Email :</h2>
                         <input class="rounded-lg w-full focus:outline-none p-2" placeholder="Your Email" type="email" name="" id="">
                     </div> 
-                    <div class="w-full lg:2/3 lg:mx-auto py-2" data-aos="fade-right">
+                    <div class="py-2" data-aos="fade-right">
                         <h2 class="text-emerald-600 font-poppin">Message :</h2>
                         <textarea class="rounded-lg w-full focus:outline-none p-2" placeholder="Your Message" type="text" name="" id=""></textarea>
                     </div> 
                 </form>
-                <div data-aos="fade-up">
+                <div class="mx-4" data-aos="fade-up">
                     <button class="bg-emerald-500 rounded-lg mx-3 py-2 px-3 font-bold text-white hover:bg-emerald-700 active:bg-emerald-500 transition ease-out duration-300 shadow-md" type="submit">Submit</button>
                 </div>
             </div>
         </div>
 
-    </section>  
+    </section>
     <!-- End Contact -->
  
     <footer class="py-8 w-full bg-emerald-950">

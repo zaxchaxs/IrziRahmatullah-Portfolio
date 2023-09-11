@@ -4,8 +4,11 @@
     scroll-behavior: smooth;
     scroll-padding: 4rem;
     transition: all .5s ease;
-      
 }
+html{
+    overflow-x: hidden;
+}
+
 body{
     width: 100%;
     margin: 0;

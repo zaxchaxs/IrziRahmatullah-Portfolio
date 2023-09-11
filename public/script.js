@@ -16,7 +16,7 @@ function toggleBtn() {
     menuBtn.classList.toggle('active');
 
     const classNavBtn = [
-        'bg-white', 'shadow-lg', 'rounded-lg', 'top-full', 'right-0'
+        'bg-white', 'shadow-lg', 'rounded-lg', 'top-full', 'right-0', 'hidden'
     ];
     classNavBtn.forEach(className => {
         navbarList.classList.toggle(className);
